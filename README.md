@@ -39,3 +39,15 @@ Transform your Raspberry Pico into a Rubber Ducky (for education purposes only)
 - Connect pin 1 `GP0` to pin 3 `GND` using a jumper wire
 
 <img src="./setupMode.jpeg">
+
+
+##### Resouces
+* https://github.com/dbisu/pico-ducky
+
+* https://learn.adafruit.com/circuitpython-essentials/circuitpython-hid-keyboard-and-mouse
+
+* https://github.com/hak5darren/USB-Rubber-Ducky/wiki/Duckyscript
+
+* https://www.youtube.com/playlist?list=PLW5y1tjAOzI0YaJslcjcI4zKI366tMBYk
+
+* https://github.com/hak5darren/USB-Rubber-Ducky/wiki/Payloads
