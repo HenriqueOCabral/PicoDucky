@@ -26,7 +26,7 @@ Transform your Raspberry Pico into a Rubber Ducky (for education purposes only)
 `from adafruit_hid.keyboard_layout_us import KeyboardLayoutUS as KeyboardLayout`<br/>
 `from adafruit_hid.keycode import Keycode`
 
-10- Uncomment these other two lines of code and replace `LANG` with the current keyboard_layout files you placed in your device <br/>(e.g Lang => br)
+10- Uncomment these other two lines of code and replace `LANG` with the current keyboard_layout files you placed in your device <br/>(e.g LANG => br)
 
 `   
     from keyboard_layout_win_LANG import KeyboardLayout`<br/>
